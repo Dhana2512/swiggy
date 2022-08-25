@@ -1,0 +1,98 @@
+.hg{
+    height: 100vh;
+    width: 100vw;
+}
+
+.main{
+    height: 550px;
+    width: 450px;
+}
+
+.h{
+    height:60px;
+    line-height: 0px;
+    border-bottom: 1px solid #C4C4CA;
+}
+
+.h i{
+    font-size: 20px;
+}
+
+.juice-image img{
+    height:100px;
+    width: 90%;
+    border: 2px solid #C4C4CA;
+    border-radius: 8px;
+}
+
+.thumb i{
+    font-size: 18px;
+}
+
+.thumb{
+    font-size: 18px;
+}
+
+.top_pics .pictures{
+    height: 90px;
+    width: 90px;
+    border: 1px solid #C4C4CA;
+    border-radius: 5px;
+   
+}
+
+.top_pics{
+    height: 160px;
+    width: 100%;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+.item{
+    height: 100px;
+    width: auto;
+    margin:1px 10px; 
+    line-height: 10px;  
+}
+
+.top_pics small{
+    color:#C4C4CA;
+}
+
+.top_pics .item .text{
+    font-size: 11px;
+    line-height: 2px;
+}
+.sub-text{
+    line-height: 2px;
+}
+
+.line{
+    line-height: 0;
+}
+
+.images{
+    height: 150px;
+    width: 110px;
+    border: 1px solid #C4C4CA;
+    border-radius: 10px;
+   
+}
+
+.see-btn{
+    width:400px;
+    height: 50px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.last img{
+    height:450px;
+    width:430px;
+}
+
+.fo{
+    font-size: 14px;
+}
