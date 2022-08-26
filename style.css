@@ -6,7 +6,7 @@
 }
 
 .main{
-    height: auto;
+    height: 100vh;
     width: 450px;
 }
 
@@ -90,7 +90,7 @@
 
 .last img{
     height:450px;
-    width:430px;
+    width:100vw;
 }
 
 .fo{
