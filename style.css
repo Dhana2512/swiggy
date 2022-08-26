@@ -1,21 +1,26 @@
 .hg{
     height: 100vh;
     width: 100vw;
+    overflow-x: hidden;
+
 }
 
 .main{
-    height: 550px;
+    height: auto;
     width: 450px;
+}
+
+.position-sticky {
+    position: -webkit-sticky!important;
+    position: sticky!important;
+    top: 0px;
+    background: #fff;
 }
 
 .h{
     height:60px;
     line-height: 0px;
     border-bottom: 1px solid #C4C4CA;
-}
-
-.h i{
-    font-size: 20px;
 }
 
 .juice-image img{
@@ -25,11 +30,7 @@
     border-radius: 8px;
 }
 
-.thumb i{
-    font-size: 18px;
-}
-
-.thumb{
+.thumb,.thumb i,.h i{
     font-size: 18px;
 }
 
@@ -38,7 +39,6 @@
     width: 90px;
     border: 1px solid #C4C4CA;
     border-radius: 5px;
-   
 }
 
 .top_pics{
@@ -63,6 +63,7 @@
     font-size: 11px;
     line-height: 2px;
 }
+
 .sub-text{
     line-height: 2px;
 }
@@ -72,15 +73,14 @@
 }
 
 .images{
-    height: 150px;
-    width: 110px;
+    height: 120px;
+    width: 85px;
     border: 1px solid #C4C4CA;
-    border-radius: 10px;
-   
+    border-radius: 10px;   
 }
 
 .see-btn{
-    width:400px;
+    width:360px;
     height: 50px;
     background-color: orangered;
     color: white;
@@ -95,4 +95,8 @@
 
 .fo{
     font-size: 14px;
+}
+
+.pad{
+    padding-left:20px;
 }
